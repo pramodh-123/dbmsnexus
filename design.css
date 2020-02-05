@@ -91,7 +91,8 @@ color:#8c52ff;
   margin-left: 20px;
 }
 .text3{
-
+  position: relative;
+  top: 50px;
   text-align:left;
   margin-left: 20px;
 }
@@ -206,7 +207,7 @@ h5{
 }
 .cloud3{
 position: relative;
-left:900px;
+left:500px;
 top:200px;
 }
 
@@ -273,12 +274,12 @@ color:white;
   top:60px;
 }
 /* teampage-mountain-details */
-.mountain{
+/* .mountain{
   position: relative;
   left: 300px;
   height: 500px;
 
-}
+} */
 .clouddown1{
   position: relative;
   left:200px;
@@ -294,7 +295,7 @@ color:white;
 }
 .clouddown2{
   position: relative;
-  left:500px;
+  left:180px;
   top: 50px;
   animation-name:none;
   animation: 10s linear 1s infinite alternate solid;
