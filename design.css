@@ -1,0 +1,308 @@
+
+h1{
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+.welcome{
+  height: 200px;
+position: relative;
+top:100px;
+left: 25%;
+}
+/* navbar */
+.nexus{
+  position: absolute;
+  right:10px;
+  font-size: 50px;
+}
+/* NEXUSCOLORS */
+#n{
+color:#ff1616;
+}
+#e{
+color:#7dd857;
+}
+
+#x{
+color:#0972ff;
+}
+
+#u{
+color:#ffbd59;
+}
+
+#s{
+color:#8c52ff;
+}
+.spaceuponanims{
+  height: 150px;
+}
+/* animations-text */
+.rightfloat{
+  float:right;
+}
+.leftfloat{
+  float:left;
+}
+/* animaion div dimensions */
+.slide1{
+  height: 650px;
+  width: 100%;
+}
+.slide2{
+  height: 650px;
+  width: 100%;
+}
+.slide3{
+  height:650px;
+  width: 100%;
+}
+.upspace{
+  height:100px;
+}
+/* animations-div */
+.introvid1{
+  width:40%;
+  height:40%;
+  float: right;
+}
+
+.introvid2{
+  width:50%;
+  height:50%;
+  float: left;
+}
+
+.introvid3{
+  width:50%;
+  height:50%;
+  float: right;
+}
+
+
+.introvid4{
+  width:40%;
+  height:40%;
+  float: left;
+}
+/* animstext */
+.text1{
+  margin-left: 20px;
+}
+.text3{
+  position: relative;
+  top: 50px;
+  text-align:left;
+  margin-left: 20px;
+}
+
+h4{
+  text-align: left;
+  text-indent:20px;
+}
+h3{
+  text-align: left;
+  text-indent:20px;
+}
+
+/* homeicon */
+.homeicon{
+  width: 3%;
+  height: 3%;
+
+}
+/* arrow */
+.arrow1{
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    position: relative;
+    left: 500px;
+    top: 300px;
+
+}
+
+/* imagedetails */
+.saisreeimg{
+  width:300px;
+  height:300px;
+  border-radius: 100%;
+}
+.pramodhimg{
+  width:300px;
+  height:300px;
+  border-radius: 100%;
+
+}
+.pranitaimg{
+  width:300px;
+  height:300px;
+  border-radius: 100%;
+}
+.fatimaimg{
+  width:300px;
+  height:300px;
+  border-radius: 100%;
+}
+.vishnusriimg{
+  width:300px;
+  height:300px;
+  border-radius: 100%;
+}
+
+.idbox2{
+  background-color: white;
+  border:  #192965 solid 5px;
+  width: 80%;
+  border-radius:15px;
+}
+.idbox{
+    background-color: white;
+  border: #192965 solid 5px;
+  width:80%;
+  border-radius:15px;
+}
+
+.linkedicon{
+  padding:10px 10px 10px 10px;
+}
+.space{
+  height:50px;
+  width:100% ;
+
+
+}
+.spaceup{
+  height:300px;
+  width:100% ;
+}
+.spacedown{
+  height:200px;
+  width:100% ;
+}
+h5{
+  color:grey;
+}
+
+/* cloud-details */
+.cloud1{
+  position: relative;
+  top:100px;
+   left: 200px;
+   animation: 8s linear 1s infinite alternate solid;
+    animation-name: solid;
+
+}
+@keyframes solid {
+  from { margin-top: 50px; }
+  50%  { margin-top: 150px !important; } /* ignored */
+  to   { margin-left: 200px; }
+}
+.cloud2{
+  position: relative;
+  top:40px;
+   left: 400px;
+
+}
+.cloud3{
+position: relative;
+left:900px;
+top:200px;
+}
+
+/* footersection */
+.footgap{
+  height:100px;
+  width:100%;
+
+}
+.foot{
+  height:400px;
+  width: 100%;
+  background-color: #f17362;
+}
+
+.infoiiit{
+position:relative;
+top:80px;
+}
+.iiitdmlogo{
+  height: 100px;
+  width: 300px;
+}
+
+.mailus{
+  width:800px;
+  position:relative;
+  top:50px;
+  padding:5px;
+}
+.button{
+  border-radius:20px;
+  border:2px solid white;
+  background-color:#f17362;
+  position: relative;
+  left:20px;
+  height: 40px;
+  padding:5px;
+  width:150px;
+  color:white;
+}
+.button:hover{
+  background-color:white;
+  color:#192965;
+  width:160px;
+  height:50px;
+}
+.inputmail{
+  border:2px solid white;
+  border-radius:15px;
+  height:50px;
+  width: 250px;
+}
+.teammail{
+position: relative;
+top:30px;
+}
+.mail-icon:hover{
+color:white;
+}
+
+.gmap{
+  position: relative;
+  top:60px;
+}
+/* teampage-mountain-details */
+.mountain{
+  position: relative;
+  left: 300px;
+  height: 500px;
+
+}
+.clouddown1{
+  position: relative;
+  left:200px;
+  top:200px;
+  animation-name: solid;
+  animation: 8s linear 1s infinite alternate solid;
+
+}
+@keyframes solid {
+  from { position: relative; left: 500px;}
+  50%  { margin-top: 150px !important; } /* ignored */
+  to   { margin-left: 200px; }
+}
+.clouddown2{
+  position: relative;
+  left:500px;
+  top: 50px;
+  animation-name:none;
+  animation: 10s linear 1s infinite alternate solid;
+
+}
+@keyframes none{
+  from { position: relative; left: 200px;}
+  50%  { margin-top: 150px !important; } /* ignored */
+  to   { margin-left: 200px; }
+}
