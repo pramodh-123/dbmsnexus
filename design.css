@@ -282,7 +282,7 @@ color:white;
 } */
 .clouddown1{
   position: relative;
-  left:200px;
+  left:100px;
   top:200px;
   animation-name: solid;
   animation: 8s linear 1s infinite alternate solid;
@@ -295,7 +295,7 @@ color:white;
 }
 .clouddown2{
   position: relative;
-  left:180px;
+  left:60px;
   top: 50px;
   animation-name:none;
   animation: 10s linear 1s infinite alternate solid;
