@@ -1,1 +1,1 @@
-alert("This website can be veiwed in both desktop and mobilephone");
+alert("This website can be viewed in both desktop and mobilephone");
